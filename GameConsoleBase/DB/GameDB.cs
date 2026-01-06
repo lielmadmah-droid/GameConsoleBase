@@ -14,7 +14,8 @@ namespace GameConsoleBase.DB
         // התחלנו עם משתמש אחד לדוגמה: "tal Simon"
         private static List<User> users = new List<User>()
         {
-            new User("tal Simon", "talsi", "1234")
+            new User("tal Simon", "talsi", "1234"),
+            new User("a", "a", "a")
         };
 
         // שיטה לרישום משתמש חדש
